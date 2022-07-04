@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345001195047",
+    "project_id": "resimli-mesajlar-d908b",
+    "storage_bucket": "resimli-mesajlar-d908b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345001195047:android:10da8447c59611496b4002",
+        "android_client_info": {
+          "package_name": "com.alican.resimlimesajlar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345001195047-uobojel4kpcoa6aauaf2la8aoe7g7qs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCipybfDIkXbCip8QFJ13FGRoqIarletCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345001195047-uobojel4kpcoa6aauaf2la8aoe7g7qs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

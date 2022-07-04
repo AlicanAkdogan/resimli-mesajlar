@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:id="@+id/dialogImage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/a1" />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Kapat"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogImage" />
+
+    <Button
+        android:id="@+id/dialogButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="Paylaş"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dialogButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
